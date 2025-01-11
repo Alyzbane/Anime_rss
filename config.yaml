@@ -1,0 +1,7 @@
+rss_url: "https://nyaa.si/?page=rss"
+fields:
+  - title
+  - nyaa:category
+  - pubDate
+  - nyaa:downloads
+  - nyaa:categoryId
