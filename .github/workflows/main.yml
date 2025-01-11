@@ -78,8 +78,10 @@ jobs:
           python-version: '3.10'
 
       - name: Run Feed Generator
+        if: success()
         run: |
-          pip install -r requirements.txt
+          mkdir -p logs
+          cp logging_deploy.ini logging_config.ini
           python main.py
 
       - name: Commit and Push Changes
