@@ -5,3 +5,5 @@ fields:
   - pubDate
   - nyaa:downloads
   - nyaa:categoryId
+namespaces:
+  nyaa: "https://nyaa.si/xmlns/nyaa"
