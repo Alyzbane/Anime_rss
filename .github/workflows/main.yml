@@ -48,6 +48,7 @@ jobs:
       - name: Generate Preview
         run: |
           pip install -r requirements.txt
+          mkdir -p logs   # This creates the logs directory if it doesn't exist
           touch logs/app.log
           python main.py
 
